@@ -1,0 +1,70 @@
+*
+{
+    background: black;
+    margin:0px;
+}
+
+div.row
+{
+    height: 20px;
+}
+
+
+div.row div
+{
+    width:20px;
+    height:20px;
+    display: inline-block;
+}
+
+div.brick
+{
+    background-color: blue;
+}
+
+div.coin
+{
+    background: url('coinGif.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px 40px;
+}
+
+div.empty
+{
+    background: black;
+}
+
+div.cherry
+{
+    background: url('cherry.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div#score{
+    border:1px dotted white;
+    width: 30px;
+    height: 30px;
+    color:pink;
+}
+
+div#pacman
+{
+    background: url('paccman.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:20px;
+    left:20px;
+}
+
+/* pacman facing left when moving left  */
+#pacmanLeft
+{
+
+}
